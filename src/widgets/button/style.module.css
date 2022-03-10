@@ -1,0 +1,85 @@
+/* ---------- Buttons---------- */
+
+.arrow_svg{
+    margin-top: 30%;
+    width: 18px;
+}
+
+.buttons{
+    position: absolute;
+    z-index: 5;
+    width:90%;
+    margin: 41% 5% 5% 5%;
+    justify-content: space-between;
+    display: flex;
+}
+
+.rightPart,.leftPart{
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttonLeft,.buttonRight{
+    cursor: pointer;
+    text-align: center;
+    align-items: center;
+    width:2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    background-color: rgba(160, 153, 153, 0.5) ;
+    fill: rgb(255, 255, 255);
+    z-index: 2;
+    transition:all 0.5s;
+    transition-timing-function: ease-in-out;
+}
+
+.rightPart .btnContainer2{
+    padding-left: .8rem;
+    width:0;
+    white-space: nowrap;
+    overflow:hidden;
+    opacity: 0;
+    background-color: rgba(160, 153, 153, 0.424);
+    margin-right: -2.5rem;
+    border-radius: 3em;
+    font-size: .8rem;
+    font-weight: 600;
+    transition: all 0.5s;
+    transition-timing-function: ease-in-out;
+}
+
+.leftPart .btnContainer1{
+    padding-right:.8rem;
+    width:0;
+    margin-left:-2.4rem;
+    white-space: nowrap;
+    overflow:hidden;
+    opacity: 0;
+    background-color: rgba(160, 153, 153, 0.424);
+    border-radius: 3em;
+    font-size: .8rem;
+    font-weight: 600;
+    transition: all 0.5s;
+    transition-timing-function: ease-in-out;
+}
+
+.rightPart:hover .btnContainer2 {
+    cursor: pointer;
+    padding-right:3rem;
+    width:180px;
+    opacity:1;
+    color: white;  
+}
+
+.leftPart:hover .btnContainer1{
+    cursor: pointer;
+    width:180px;
+    opacity: 1;
+    padding-left:3rem;
+    color: white;
+}
+
+.rightPart:hover .buttonRight,.leftPart:hover .buttonLeft{
+    background-color: rgb(8, 8, 8);
+}
