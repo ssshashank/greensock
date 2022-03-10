@@ -30,7 +30,7 @@ const getButton=function(){
     return buttonList;
 }
 
-const GreenButton = () => {
+const MyButton = () => {
     let buttonData=getButton();
     const scrollToLeft=()=>{
         const elementId=document.getElementById("outerLayer");
@@ -84,4 +84,4 @@ const GreenButton = () => {
     )
 }
 
-export default GreenButton
+export default MyButton

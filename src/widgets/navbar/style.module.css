@@ -14,7 +14,7 @@
 }
 
 .navbar h1{
-    color:var(--text-color-dark);
+    color:var(--text-color-purity);
     font-size: var(--fontsize-strong);
     mix-blend-mode: difference;
 }

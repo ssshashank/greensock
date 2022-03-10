@@ -5,9 +5,10 @@ import Navbar from './widgets/navbar/navbar';
 
 function App() {
   return (
-    <div className="App">
+    <div>
+      
       <Navbar/>
-      <MyButton/>
+      <MyContainer/>
     </div>
   );
 }
