@@ -1,5 +1,4 @@
 import './App.css';
-import MyButton from './widgets/button/button';
 import MyContainer from './widgets/container/container';
 import Navbar from './widgets/navbar/navbar';
 
